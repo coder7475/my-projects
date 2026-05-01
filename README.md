@@ -11,21 +11,19 @@ A collection of my personal and professional software projects.
 | 3 | **URL Shortener** | URL shortening microservice (FreeCodeCamp project) | [Repository](https://github.com/coder7475/url-shortener) |
 | 4 | **AI Agents** | AI agents and automation | [Repository](https://github.com/coder7475/ai-agents) |
 | 5 | **Smart Todo App** | AI-powered task management with Gemini | [Repository](https://github.com/coder7475/smart-todo-app) |
-| 6 | **Next.js Auth** | Authentication with Next.js | [Repository](https://github.com/coder7475/nextjs-auth) |
-| 7 | **Email Sender** | Email sending service | [Repository](https://github.com/coder7475/email-sender) |
-| 8 | **Text2SQL** | Natural language to SQL converter | [Repository](https://github.com/coder7475/text2sql) |
-| 9 | **Blog Platform** | Full-stack blogging platform | [Backend](https://github.com/coder7475/blog-server) / [Frontend](https://github.com/coder7475/blog-client) |
-| 10 | **Library Management** | Full-stack library management system | [Frontend](https://github.com/coder7475/libraray_management_frontend) / [Backend](https://github.com/coder7475/library_management_apis) |
-| 11 | **School Management APIs** | School administration backend APIs | [Repository](https://github.com/coder7475/school_management_apis) |
-| 12 | **YouTube Upload Scheduler** | Scheduled video upload API | [Repository](https://github.com/coder7475/youtube-video-upload-api) |
-| 13 | **YouTube Title Generator** | AI-powered video title generation | [Repository](https://github.com/coder7475/rag-python) |
-| 14 | **Quality Assurance** | QA testing and automation tools | [Repository](https://github.com/coder7475/QA) |
-| 15 | **Bike Rental App** | Bike rental management system | [Frontend](https://github.com/coder7475/bike-rental-app) / [Backend](https://github.com/coder7475/apollo-assignment-3/tree/main) |
-| 16 | **Auth Shops** | Authentication and shop integration | [Repository](https://github.com/coder7475/auth-shops) |
-| 17 | **N8N Workflows** | Automation workflows with n8n | [Repository](https://github.com/coder7475/n8n_workflows) |
-| 18 | **Diabetes Prediction System** | ML-based diabetes prediction | [Repository](https://github.com/coder7475/diabetes_prediction_system) |
-| 19 | **Ecommerce Microservices** | Collection of ecommerce microservices | [Repository](https://github.com/coder7475/ecommerce_microservices) |
-| 20 | **Dynamic PDF Scraping** | PDF scraping and LLM processing pipeline | [Repository](https://github.com/coder7475/dynamic_pdf_scraping) |
+| 6 | **Text2SQL** | Natural language to SQL converter | [Repository](https://github.com/coder7475/text2sql) |
+| 7 | **Blog Platform** | Full-stack blogging platform | [Backend](https://github.com/coder7475/blog-server) / [Frontend](https://github.com/coder7475/blog-client) |
+| 8 | **Library Management** | Full-stack library management system | [Frontend](https://github.com/coder7475/libraray_management_frontend) / [Backend](https://github.com/coder7475/library_management_apis) |
+| 9 | **School Management APIs** | School administration backend APIs | [Repository](https://github.com/coder7475/school_management_apis) |
+| 10 | **YouTube Upload Scheduler** | Scheduled video upload API | [Repository](https://github.com/coder7475/youtube-video-upload-api) |
+| 11 | **YouTube Title Generator** | AI-powered video title generation | [Repository](https://github.com/coder7475/rag-python) |
+| 12 | **Quality Assurance** | QA testing and automation tools | [Repository](https://github.com/coder7475/QA) |
+| 13 | **Bike Rental App** | Bike rental management system | [Frontend](https://github.com/coder7475/bike-rental-app) / [Backend](https://github.com/coder7475/apollo-assignment-3/tree/main) |
+| 14 | **Auth Shops** | Authentication and shop integration | [Repository](https://github.com/coder7475/auth-shops) |
+| 15 | **N8N Workflows** | Automation workflows with n8n | [Repository](https://github.com/coder7475/n8n_workflows) |
+| 16 | **Diabetes Prediction System** | ML-based diabetes prediction | [Repository](https://github.com/coder7475/diabetes_prediction_system) |
+| 17 | **Ecommerce Microservices** | Collection of ecommerce microservices | [Repository](https://github.com/coder7475/ecommerce_microservices) |
+| 18 | **Dynamic PDF Scraping** | PDF scraping and LLM processing pipeline | [Repository](https://github.com/coder7475/dynamic_pdf_scraping) |
 
 ## My Templates
 
