@@ -25,6 +25,7 @@ A collection of my personal and professional software projects.
 | 17 | **N8N Workflows** | Automation workflows with n8n | [Repository](https://github.com/coder7475/n8n_workflows) |
 | 18 | **Diabetes Prediction System** | ML-based diabetes prediction | [Repository](https://github.com/coder7475/diabetes_prediction_system) |
 | 19 | **Ecommerce Microservices** | Collection of ecommerce microservices | [Repository](https://github.com/coder7475/ecommerce_microservices) |
+| 20 | **Dynamic PDF Scraping** | PDF scraping and LLM processing pipeline | [Repository](https://github.com/coder7475/dynamic_pdf_scraping) |
 
 ## My Templates
 
