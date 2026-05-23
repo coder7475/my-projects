@@ -49,6 +49,8 @@ A collection of my personal and professional software projects.
 | # | Project | Description | Link |
 |---|---------|-------------|------|
 | 1 | **NextJS Clerk** | Next.js with Clerk authentication | [Repository](https://github.com/coder7475/sso-clerk) |
+| 2 | **GraphQL PoC** | GraphQL proof of concept | [Repository](https://github.com/coder7475/graphql-poc) |
+| 3 | **Socket PoC** | Socket programming proof of concept | [Repository](https://github.com/coder7475/socket_programming) |
 
 ## Old Projects
 
@@ -68,3 +70,4 @@ Additional command-line tools can be found in the [cli-projects](./cli-projects/
 ---
 
 *Last updated: May 2026*
+
