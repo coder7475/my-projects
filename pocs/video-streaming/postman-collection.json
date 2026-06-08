@@ -1,0 +1,62 @@
+{
+  "info": {
+    "_postman_id": "4eacc604-8cba-4ef5-9dc2-165a7e4f77fa",
+    "name": "video-streaming-poc",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "30945457"
+  },
+  "item": [
+    {
+      "name": "root",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8888",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8888"
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "upload",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "cf80392b-6e5a-4222-9944-ef44b0a335cd",
+              "src": "/C:/Users/Fahad/Videos/Desktop Mode.mp4"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8888/upload?",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8888",
+          "path": [
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": null
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -3,8 +3,14 @@ import cors from "cors";
 import multer from "multer";
 import { v4 as uuidv4 } from "uuid";
 import path from "node:path";
+import fs from "node:fs";
+import { exec } from "node:child_process"; // !watch out
+import { error } from "node:console";
+import { stderr } from "node:process";
 
 const app = express();
+const port = 8888;
+// multer middleware
 const storage = multer.diskStorage({
   destination: function (req, res, cb) {
     cb(null, "./uploads");
@@ -14,7 +20,8 @@ const storage = multer.diskStorage({
   }
 })
 
-const multer = upload({ storage });
+// multer  configuration
+const upload = multer({ storage });
 
 
 app.use(cors({
@@ -39,7 +46,49 @@ app.get("/", (_req, res) => {
   })
 });
 
-const port = 8888;
+app.post("/upload", upload.single('file'), (req, res) => {
+  console.log("file uploaded");
+  const lessonId = uuidv4();
+  const videoPath = req.file.path;
+  const outputPath = `./uploads/courses/${lessonId}`;
+  const hlsPath = `${outputPath}/index.m3u8`;
+  console.log("hlsPath: ", hlsPath);
+
+  if (!fs.existsSync(outputPath)) {
+    fs.mkdirSync(outputPath, { recursive: true })
+  }
+
+  // ffmpeg 
+  const ffmpegCommand = `ffmpeg -i ${videoPath} \
+  -codec:v libx264 \
+  -codec:a aac \
+  -hls_time 10 \
+  -hls_playlist_type vod \
+  -hls_segment_filename "${outputPath}/segment%03d.ts" \
+  -start_number 0 \
+  ${hlsPath}`;
+
+  //  use queue in production
+  exec(ffmpegCommand, (error, stdout, stderr) => {
+    if (error) {
+      console.log(`exec error: ${error}`);
+    }
+
+    console.log(`stdout: ${stdout}`);
+
+    console.log(`stderr: ${stderr}`);
+  });
+
+  const videoUrl = `http://localhost:${port}/uploads/courses/${lessonId}/index.m3u8`;
+
+
+  res.json({
+    message: "hls converted to hls",
+    videoUrl,
+    lessonId
+  })
+});
+
 app.listen(port, () => {
   console.log(`The server is running at port ${port}`);
 });
